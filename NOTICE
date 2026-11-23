@@ -1,0 +1,36 @@
+Courbure
+Copyright 2026 Courbure contributors.
+
+Original project code and bundled synthetic examples use the Apache License, Version 2.0.
+
+The application build includes runtime files from these projects. Preserve the
+upstream licenses, copyright notices and notices embedded in their distributed code.
+
+Manifold 3.5.5 — Apache-2.0
+https://github.com/elalish/manifold
+
+Three.js 0.180.0 — MIT
+https://github.com/mrdoob/three.js
+
+WebLLM 0.2.89 (@mlc-ai/web-llm) — Apache-2.0
+Includes MLC runtime, tokenizer and XGrammar components. Its bundle retains the
+loglevel attribution (copyright 2013 Tim Perry, MIT) and other embedded notices.
+https://github.com/mlc-ai/web-llm
+
+Rapier JavaScript bindings 0.21.0 (@dimforge/rapier3d-compat) — Apache-2.0
+https://github.com/dimforge/rapier.js
+
+fflate 0.8.3 — MIT, copyright 2026 Arjun Barrett
+https://github.com/101arrowz/fflate
+
+esbuild 0.28.2 — MIT, copyright Evan Wallace. Used at build time.
+https://github.com/evanw/esbuild
+
+The optional browser model is Qwen2.5-0.5B-Instruct (Apache-2.0), quantized in
+MLC format. Model weights and the model-specific compiled library are separate
+downloads. Revision, source and integrity details are in docs/BROWSER_AI.md.
+https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct
+https://github.com/mlc-ai/binary-mlc-llm-libs
+
+PrusaSlicer, FreeCAD and loopback inference services are installed separately.
+References to upstream projects and programs imply no affiliation or endorsement.

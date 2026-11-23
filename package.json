@@ -1,0 +1,26 @@
+{
+  "name": "courbure-lattice",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "A local-first AI lattice generator with bounded geometry, material evidence and reproducible exports.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "gateway": "node scripts/ai-gateway.mjs",
+    "build:worker": "node scripts/build-worker.mjs"
+  },
+  "dependencies": {
+    "manifold-3d": "3.5.5",
+    "three": "0.180.0",
+    "@mlc-ai/web-llm": "0.2.89",
+    "fflate": "0.8.3",
+    "@dimforge/rapier3d-compat": "0.21.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
