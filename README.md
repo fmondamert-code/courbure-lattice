@@ -2,7 +2,7 @@
 
 Courbure generates graded lattices inside a built-in shape or a closed STL on your computer. Export the result in millimetres as a 3MF model, as a binary STL, or as a manufacturing ZIP with both meshes and the regenerable project. A small optional WebGPU model translates a plain-language brief into editable parameters on the device. Geometry generation and numerical analysis work without a model or API key.
 
-[Open the static demo](https://fmondamert-code.github.io/courbure-lattice/) · [Download the release](https://github.com/fmondamert-code/courbure-lattice/releases/tag/v0.3.0)
+[Open the static demo](https://courbure-lattice.pages.dev/) · [Download the release](https://github.com/fmondamert-code/courbure-lattice/releases/tag/v0.3.0)
 
 ## Run locally
 
